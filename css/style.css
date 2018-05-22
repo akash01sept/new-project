@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #fefefe;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+        url('../fonts/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontawesome-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'myriadpro-regular';
+    src: url('../fonts/myriadpro-regular.woff2') format('woff2'), url('../fonts/myriadpro-regular.woff') format('woff'), url('../fonts/myriadpro-regular.ttf') format('truetype'), url('../fonts/myriadpro-regular.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller-lt';
+    src: url('../fonts/aller-lt.woff2') format('woff2'),
+        url('../fonts/aller-lt.woff') format('woff'),
+        url('../fonts/aller-lt.ttf') format('truetype'),
+        url('../fonts/aller-lt.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller-bd';
+    src: url('../fonts/aller-bd.woff2') format('woff2'),
+        url('../fonts/aller-bd.woff') format('woff'),
+        url('../fonts/aller-bd.ttf') format('truetype'),
+        url('../fonts/aller-bd.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller-rg';
+    src: url('../fonts/aller-rg.woff2') format('woff2'),
+        url('../fonts/aller-rg.woff') format('woff'),
+        url('../fonts/aller-rg.ttf') format('truetype'),
+        url('../fonts/aller-rg.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller-it';
+    src: url('../fonts/aller-it.woff2') format('woff2'),
+        url('../fonts/aller-it.woff') format('woff'),
+        url('../fonts/aller-it.ttf') format('truetype'),
+        url('../fonts/aller-it.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'allerdisplay';
+    src: url('../fonts/allerdisplay.woff2') format('woff2'),
+        url('../fonts/allerdisplay.woff') format('woff'),
+        url('../fonts/allerdisplay.ttf') format('truetype'),
+        url('../fonts/allerdisplay.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main_container {
+    background: #ffe4e1;
+    padding-bottom: 30px;
+}
+.container {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+}
+.box h1 {
+    font-family: 'aller-rg';
+    font-size: 30px;
+    padding-top: 30px;
+}
+.box p {
+    font-family: 'aller-it';
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box_2 button {
+    font-family: 'aller-it';
+    padding: 16px 29px;
+    cursor: pointer;
+    background-color: #cd853f;
+    color: aliceblue;
+    border: none;
+}
+.box_2 {
+    border-bottom: 2px solid #d3d3d3;
+    padding-bottom: 30px;
+}
+.box_4 {
+    width: 500px;
+    height:400px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gray;
+    background-color: #fff;
+    border: none;
+    left: 0;
+    margin-bottom: 30px;
+    top: 0;
+    position: absolute;
+}
+.other {
+    margin-top: 20px;
+}
+.box_4 h1 {
+    font-family: 'aller-bd';
+    font-size: 50px;
+    color: chartreuse;
+    position: relative;
+    top: 150px;
+
+}
+.box_3 {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JAVASCRIPT Example</title>
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+<div class="main_container">
+    <div class="container">
+        <div class="box">
+            <h1>JavaScript Statements</h1>
+            <p>JavaScript controllers</p>
+        </div><!--box-->
+                <div class="box_2">
+                    <button type = "button" onclick = "myFunction1()">RED</button>
+                    <button type = "button" onclick = "myFunction2()">YELLOW</button>
+                    <button type = "button" onclick = "myFunction3()">BLUE</button>
+                    <button type = "button" onclick = "myFunction4()">GREEN</button>
+                    <button type = "button" onclick = "myFunction5()">small</button>
+                    <button type = "button" onclick = "myFunction6()">big</button>
+                    <button type = "button" onclick = "myFunction7()">hidden</button>
+                    <button type = "button" onclick = "myFunction8()">visible</button>
+                    <button type = "button" onclick = "myFunction9()">Circle</button>
+                    <button class = "other" type = "button" onclick = "myFunction10()">Rectangle</button>
+                    <button class = "other" type = "button" onclick = "myFunction11()">Heading</button>
+                    <button class = "other" type = "button" onclick = "slideToggle()" >Slider</button>
+                </div><!--box_2-->
+
+        <div class="box_3">
+            <div id="mybox"  class="box_4">
+                <h1 id ="demo"></h1>
+            </div><!--box_4-->
+        </div><!--box_3-->
+
+    </div><!--container-->
+    </div><!--main_container-->
+
+
+<script>
+
+    function myFunction1()  {
+        document.getElementById('mybox').style.background = 'red';
+    }
+    function myFunction2()  {
+        document.getElementById('mybox').style.background = 'yellow';
+    }
+    function myFunction3()  {
+        document.getElementById('mybox').style.background = 'blue';
+    }
+    function myFunction4()  {
+        document.getElementById('mybox').style.background = 'green';
+    }
+    function myFunction5()  {
+        document.getElementById('mybox').style.width = '250px';
+        document.getElementById('mybox').style.height = '250px';
+    }
+    function myFunction6()  {
+        document.getElementById('mybox').style.width = '700px';
+        document.getElementById('mybox').style.height = '500px';
+    }
+    function myFunction7()  {
+        document.getElementById('mybox').style.display = 'none';
+    }
+    function myFunction8()  {
+        document.getElementById('mybox').style.display = 'block';
+    }
+    function myFunction9()  {
+        document.getElementById('mybox').style.borderRadius = '218px';
+        document.getElementById('mybox').style.width = '326px';
+        document.getElementById('mybox').style.height = '305px';
+    }
+    function myFunction10()  {
+        document.getElementById('mybox').style.width = '940px';
+        document.getElementById('mybox').style.height = '400px';
+    }
+    function myFunction11()  {
+        document.getElementById('demo').innerHTML = 'Welcome';
+    }
+    function slideToggle() {
+        if (document.getElementById('mybox').style.left === '-500px') {
+            document.getElementById('mybox').style.left = '0';
+        } else {
+            document.getElementById('mybox').style.left = '-500px';
+            document.getElementById('mybox').style.transition = '0.5s ease-in';
+        }
+    }
+
+    </script>
+
+</body>
+</html>
