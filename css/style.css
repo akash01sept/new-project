@@ -274,10 +274,20 @@ table {
     color: aliceblue;
     border: none;
 }
-
-
-
-
+.img-1 {
+	float: left;
+    width: 50%;
+}
+.img-2 {
+	float: left;
+    width: 50%;
+}
+.img-1 img {
+	width: 100%;
+}
+.img-2 img {
+	width: 100%;
+}
 
 
 
