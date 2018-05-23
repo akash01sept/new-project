@@ -278,6 +278,9 @@ table {
     color: aliceblue;
     border: none;
 }
+.box-img {
+	margin-top: 30px;
+}
 .img-1 {
 	float: left;
     width: 50%;
