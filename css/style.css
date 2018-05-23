@@ -266,7 +266,14 @@ table {
 	font-family: 'aller-rg';
 	
 }
-
+.new-box button {
+    font-family: 'aller-it';
+    padding: 16px 29px;
+    cursor: pointer;
+    background-color: #cd853f;
+    color: aliceblue;
+    border: none;
+}
 
 
 
