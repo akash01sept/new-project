@@ -190,7 +190,11 @@ table {
     font-weight: normal;
     font-style: normal;
 }
-
+.clr {
+    clear: both;
+    width: 100%;
+    height: 0;
+}
 .main_container {
     background: #ffe4e1;
     padding-bottom: 30px;
