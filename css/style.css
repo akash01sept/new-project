@@ -281,21 +281,7 @@ table {
 .box-img {
     margin-top: 30px;
 }
-.img-1 {
-    float: left;
-    width: 48%;
-}
-.new-padding {
-    padding: 10px;
-}
-.img-2 {
-    float: left;
-    width: 48%;
-}
 .img-1 img {
-    width: 100%;
-}
-.img-2 img {
     width: 100%;
 }
 
